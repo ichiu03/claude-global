@@ -1,0 +1,11 @@
+# Allowlist: track only my own setup. Everything else in ~/.claude is Claude Code's
+# private data (transcripts, prompt history, session keys, shell snapshots) and must
+# never be committed.
+/*
+!/.gitignore
+!/CLAUDE.md
+!/settings.json
+!/agents/
+!/templates/
+
+.DS_Store
